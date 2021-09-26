@@ -1,0 +1,159 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.home {
+    color: rgba(255, 68, 0, 0.993);
+}
+.link a {
+    color:black;
+ }
+ .banner1 {
+    background-image: url("img/Rectangle48.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 7%;
+}
+.title {
+    color:white;
+}
+.first label {
+    width: 100%;
+    display: block;
+    width: 100%;
+    margin-top: 3%;
+}
+@media screen and (min-width: 992px) {
+.first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+.information {
+    margin-left: 5%;
+}
+.top {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pizza {
+    margin-left: 20%;
+    color: coral;
+}
+.cheese label {
+    display: block;
+    width: 100%;
+    margin-top: 1%;
+}
+.first input {
+    width: 320px;
+    height: 40px;
+}
+.quantity input {
+    width: 320px;
+    height: 40px;
+}
+select {
+    width: 320px;
+    height: 46px;
+}
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .cheese {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .cheese {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.chips {
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 2%;
+}
+@media screen and (min-width: 992px) {
+    .drink-dessert {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.drink-dessert label {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.settle {
+    width: 320px;
+    height: 40px;
+    margin-top: 1%;
+}
+@media screen and (min-width: 992px) {
+    .detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.detail label {
+    width: 100%;
+    display: block;
+    width: 100%;
+    margin-top: 3%;
+}
+.detail input {
+    width: 320px;
+    height: 40px;
+}
+button {
+    color: white;
+    background-color: rgb(246, 79, 18);
+    width: 177px;
+    height: 68px;
+    border: 2px solid #ff4500;
+    background-color: orangered;
+    border-radius: 38%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+}
+.button {
+    margin-top: 7%;
+    margin-left: 70%;
+}
+.delivery {
+    margin-top: 7%;
+}
+.delivery h2 {
+    font-weight: bold;
+}
+.first-title {
+    font-weight: bold;
+}
+h4 {
+    font-weight: bold;
+}
+h3 {
+    font-weight: bold;
+}
+#trait_dessus {
+    margin: 15pxpx;
+    width: 800px;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+label, input, button, select {
+    font-size: inherit;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}

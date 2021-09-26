@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta lang="fr">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="formstyle.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <div>
+            <img src="pictures/image12.png"/>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand home" href="#">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pizza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Burger</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Salades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="banner1">
+            <h6 class="title">Fodd app</h6>
+            <h3 class="title">Chez bella</h4>
+            <h3 class="title">chaque désir s'aditionne</h3>
+        </div>
+        <form>
+            <div class="information">
+                <h2 class="first-title">Vos informations</h2>
+                <div class="first">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="user_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phonenumber" class="form-label">Téléphone</label>
+                        <input type="text" class="form-control" id="user_phonenumber">
+                    </div>
+                    <div class="mb-3">
+                        <label for="surname" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="user_surname">
+                     </div> 
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nous ne partagerons jamais vos données personelles</div>
+                    </div> 
+                </div>
+                <div id="trait_dessus"><hr></div>
+                <div class="order">
+                    <div class="top">
+                        <div class="line">
+                        <h1>Votre Commande</h1>
+                        <h2 class="pizza">Pizza au 4 fromage</h2>
+                        </div>         
+                        <h4>Suppléments</h4>
+                    </div>
+                <div class="cheese">
+                    <section class="ingrédient">
+                        <div class="select-style">
+                            <label for="cheese-select">ingrédient</label>
+                            <select name="cheese" id="cheese-select">
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            </select>
+                        </div>
+                        <div class="select-style">
+                            <label for="cheese-select">ingrédient1</label>
+                            <select name="cheese" id="cheese-select">
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            </select>
+                        </div>
+                        <div class="select-style">
+                            <label for="cheese-select">ingrédient2</label>
+                            <select name="cheese" id="cheese-select">
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                             </select>
+                        </div>
+                        <div class="select-style">
+                            <label for="cheese-select">ingrédient3</label>
+                            <select name="cheese" id="cheese-select">
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            <option value="cheese">fromage</option>
+                            </select>
+                        </div>
+                    </section>                     
+                    <section class="quantity">
+                        <div class="quantity1">
+                            <label for="number">Quantité</label>
+                            <input type="number" id="quantity" name="number_quantity">
+                        </div>    
+                        <div class="quantity2">
+                            <label for="number">Quantité</label>
+                            <input type="number" id="quantity" name="number_quantity">
+                        </div>   
+                        <div class="quantity2">
+                            <label for="number">Quantité</label>
+                            <input type="number" id="quantity" name="number_quantity">
+                        </div>  
+                        <div class="quantity3">
+                            <label for="number">Quantité</label>
+                            <input type="number" id="quantity" name="number_quantity">
+                        </div>    
+                    </section>
+                </div>
+                <div class="chips">
+                    <div>
+                        <input type="radio" id="taste_1" name="taste_chips" value="1">
+                        <label for="taste_1">avec frites</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="taste_2" name="taste_chips" value="2">
+                        <label for="taste_2">sans frites</label>
+                    </div>
+                </div>
+                <div class="drink-dessert">
+                    <div class="drink">
+                        <h3>Boissons</h3>
+                        <div class="taste">
+                            <input type="checkbox" id="quantity" name="number_quantity" value="1">
+                            <label for="taste_1">cocacola</label>
+                            <input class="settle" type="number" id="quantity" name="number_quantity">
+                        </div>
+                        <div class="taste">
+                            <input type="checkbox" id="quantity" name="number_quantity" value="1">
+                            <label for="taste_2">Fanta</label>
+                            <input class="settle" type="number" id="quantity" name="number_quantity">
+                        </div>
+                        <div class="taste">
+                            <input type="checkbox" id="quantity" name="number_quantity" value="1">
+                            <label for="taste_3">Eau</label>
+                            <input class="settle" type="number" id="quantity" name="number_quantity">
+                        </div>
+                    </div>
+                    <div class="dessert">
+                        <h3>Desserts</h3>
+                        <div class="taste">
+                            <input type="checkbox" id="quantity" name="number_quantity" value="1">
+                            <label for="taste_1">Tiramisu</label>
+                            <input class="settle" type="number" id="quantity" name="number_quantity">
+                        </div>
+                        <div class="taste">
+                            <input type="checkbox" id="quantity" name="number_quantity" value="1">
+                            <label for="taste_2">cheese-cake</label>
+                            <input class="settle" type="number" id="quantity" name="number_quantity">
+                        </div>
+                        <div class="taste">
+                            <input type="checkbox" id="quantity" name="number_quantity" value="1">
+                            <label for="taste_3">Tarte au fraise</label>
+                            <input class="settle" type="number" id="quantity" name="number_quantity">
+                        </div> 
+                    </div>
+                </div>        
+            </div>
+            <div class="delivery">
+                <h2>Adresse de livraison</h2>
+                <div class="detail">
+                    <div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="user_name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phonenumber" class="form-label">Téléphone</label>
+                            <input type="text" class="form-control" id="user_phonenumber">
+                        </div> 
+                        <div class="mb-3">
+                            <label for="adress" class="form-label">Adresse</label>
+                            <input type="text" class="form-control" id="user_adress">
+                        </div>
+                        <div class="mb-3">
+                            <label for="adress" class="form-label">Ville</label>
+                            <input type="text" class="form-control" id="user_adress">
+                        </div> 
+                    </div>
+                    <div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="user_name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div> 
+                        <div class="mb-3">
+                            <label for="adress" class="form-label">code postal</label>
+                            <input type="text" class="form-control" id="user_adress">
+                        </div>
+                        <div class="mb-3">
+                            <label for="adress" class="form-label">Pays</label>
+                            <input type="text" class="form-control" id="user_adress">
+                        </div> 
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </div>
+        </form>
+       
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>

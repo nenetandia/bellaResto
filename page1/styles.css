@@ -1,0 +1,178 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.home {
+    color: rgba(255, 68, 0, 0.993);
+}
+.link {
+    color:black;
+ }
+.banner1 {
+    background-image: url("img/Rectangle48.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 7%;
+}
+.title {
+    color:white;
+}
+.banner2 {
+    background-image: url("img/Rectangle47.png"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    font-weight: bold;
+    padding: 7%;
+}
+#Pizza {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+    article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.pizza1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ff4500;
+}
+.pizza2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ff4500;
+}
+.pizza3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #ff4500;
+}
+.titledpizza {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+button {
+    background-color: orangered;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #ff4500;
+    background-color: orangered;
+    border-radius: 38%;
+    align-self: flex-end;
+    margin-bottom: 3%;
+    margin-right: 5%;
+}
+article img {
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: 3px;
+}
+.definition p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+#Burger {
+    display: flex;
+    flex-direction: column;
+}
+.burger1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ff4500;
+}
+.burger2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ff4500;
+}
+.burger3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #ff4500;
+}
+.titledburger {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#Salade {
+    display: flex;
+    flex-direction: column;
+}
+.salade1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ff4500;
+}
+.salade2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #ff4500;
+}
+.salade3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #ff4500;
+}
+.titledsalade {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.problem {
+    margin-top: 10%;
+    margin-bottom: 10%;   
+}
+.titledproblem {
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.enjoy {
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+@media screen and (min-width: 1200px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.list-footer {
+    display:flex;
+    flex-direction: row;
+}
+.linkfooter {
+    align-self: flex-end;
+}

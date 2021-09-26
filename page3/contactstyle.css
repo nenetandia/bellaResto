@@ -1,0 +1,107 @@
+header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+}
+header img {
+    width: 100%;
+    height: 101.71px;
+    margin-left: 5%;
+}
+.home {
+    color: rgba(255, 68, 0, 0.993);
+}
+.link a {
+    color:black;
+ }
+.banner1 {
+    background-image:url("pictures/banir1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    border: 2px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 7%;
+}
+.title {
+    color:white;
+}
+.contact {
+    margin-left: 105px;
+}
+@media screen and (min-width: 992px) {
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 105px;
+}
+.contact input {
+    width: 40%;
+    height: 40px;
+    margin-right: 3%;
+}
+}
+.contact label {
+    width: 100%;
+    display: block;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+.contact input {
+    width: 100%;
+    height: 40px;
+    margin-right: 3%;
+}
+.upload button {
+    color: white;
+    background-color: rgb(246, 79, 18);
+    width: 107px;
+    height: 16px;
+    border: 2px solid #ff4500;
+    margin-top: 3%;
+    margin-left: 105px;
+}
+.object select {
+    width: 100%;
+    height: 40px;
+    margin-top: 1%;
+    margin-left: 105px;
+}
+.object label {
+    display: block;
+    margin-top: 3%;
+    margin-left: 105px;
+}
+.message label{
+    display: block;
+    margin-top: 3%;
+    margin-left: 105px;
+}
+textarea {
+    margin-top: 1%;
+    width: 100%;
+    height: 238px;
+    margin-left: 105px;
+}
+.map {
+    width: 100%;
+    height: 500px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+p {
+    margin-left: 105px;
+}
+h2 {
+    margin-left: 105px;
+    font-weight: bold;
+}
+label, input, button, select {
+    font-size: inherit;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
